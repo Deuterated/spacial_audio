@@ -40,7 +40,7 @@ println!("now enter a y coordinate.");
 	println!("enemy is {distance} units away");
 
     let bearing: f32 = 
-	if y_pos >= 0.0 {(opp/adj).atan()} else {(opp/adj).atan()+PI}; //This line. This function. Why doesn't trig work like trig? right, because the domain of atan is -PI to PI, and by setting the zero mark of my headings to the positve Y direction, I fucked myself
+	if y_pos >= 0.0 {(opp/adj).atan()} else {(opp/adj).atan()+PI}; //This line. This function. Why doesn't trig work like trig? right, because the domain of atan is -PI to PI, and by setting the zero mark of my headings to the positve Y direction, I shot myself in the foot
     let bearing_adjusted: f32 = bearing/PI; 
 	println!("enemy bearing is {bearing_adjusted}π radians");
     let intensity: f32 = 1.0/(distance * distance);
