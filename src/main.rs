@@ -9,7 +9,6 @@ use std::f32::consts::PI;
 
 
 fn main() {
-    //println!("Hello, world!");
 
 //taking input from console is mostly for testing the functions themselves
     println!("enter the enemy position on the plane; x coordinate first.");
